@@ -7,4 +7,5 @@
     <title><?php echo $title; ?> | Market View Research</title>
 	<?php echo link_tag('resources/css/bootstrap.min.css'); ?>
 	<?php echo link_tag('resources/css/custom.css'); ?>
+	<script src="<?php echo base_url('resources/js/custom_functions.js'); ?>"></script>
 </head>
