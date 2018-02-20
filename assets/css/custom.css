@@ -24,9 +24,6 @@ body {
   padding: 15px;
   margin: 0 auto;
 }
-.form-login .checkbox {
-  font-weight: 400;
-}
 .form-login .form-control {
   position: relative;
   box-sizing: border-box;
@@ -37,7 +34,7 @@ body {
 .form-login .form-control:focus {
   z-index: 2;
 }
-.form-login input[type="email"] {
+.form-login input[type="text"] {
   margin-bottom: -1px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
@@ -46,4 +43,8 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+#message {
+	font-size: 0.8rem;
+	text-align: justify;
 }
